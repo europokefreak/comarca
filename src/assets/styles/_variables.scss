@@ -1,0 +1,21 @@
+@use "sass:color";
+
+$fontFamilySansSerif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$fontFamilySerif: "Georgia", "Times New Roman", serif;
+
+@function lighterColor($color, $amount) {
+  @return color.scale($color, $lightness: $amount);
+}
+
+$comarcaLetra: rgb(0,0,253);
+$comarcaLetraResaltada: rgb(207,6,32);
+$comarcaSecundario: rgb(0,156,0);
+$comarcaBackground: lighterColor(rgb(254,229,110), 70%);
+$comarcaLetraMenu: rgb(255,255,255);
+$comarcaBackgroundMenu: lighterColor(rgb(207,6,32), 30%);
+$comarcaBackgroundContenido:rgb(255,255,255);
+$comarcaCarrusel: rgb(0,0,0);
+$comarcaCarruselAlternativa: rgb(255,255,255);
+
