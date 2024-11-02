@@ -178,14 +178,18 @@
   text-align: left;
 }
 
-.descripcion-lista-elemento{
-  padding-left: 1rem;
-  border-left: 3px solid $comarcaSecundario;
+.descripcion-lista{
   
-  .descripcion-parrafo{
-    padding-bottom: 0;
+  .descripcion-lista-elemento{
+    padding-left: 1rem;
+    border-left: 3px solid $comarcaSecundario;
+  
+    .descripcion-parrafo{
+      padding-bottom: 0;
+    }
   }
 }
+
 
 
 
