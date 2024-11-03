@@ -14,7 +14,7 @@
   padding: 2rem 2rem;
 }
 
-.cabecera{
+.cabecera {
   padding-top: 0.5rem;
   padding-bottom: 0.25rem;
   margin-bottom: 2rem;
@@ -50,7 +50,7 @@
   justify-content: center;
   align-content: center;
   
-  .imagen{
+  .imagen {
     max-width: 80%;
   }
 }
@@ -171,74 +171,69 @@
   color: $comarcaLetraResaltada;
 }
 
-.descripcion-titulo{
+.descripcion-titulo {
   font-weight: 700;
   font-size: 1.2rem;
   color: $comarcaLetraResaltada;
   text-align: left;
 }
 
-.descripcion-lista{
-  
-  .descripcion-lista-elemento{
+.descripcion-lista {
+  .descripcion-lista-elemento {
     padding-left: 1rem;
     border-left: 3px solid $comarcaSecundario;
   
-    .descripcion-parrafo{
+    .descripcion-parrafo {
       padding-bottom: 0;
     }
   }
 }
-
-
-
 
 .swiper-slide {
   font-size: 1.5rem;
   color: $comarcaCarrusel;
 }
 
-
-.slide-coca-1{
+.slide-coca-1 {
   background-image: url(/src/assets/images/castillo-coca.webp);
   background-size: cover;
 }
 
-.slide-coca-2{
+.slide-coca-2 {
   background-image: url(/src/assets/images/muralla-coca.jpg?as=webp);
   background-size: cover;
 }
 
-.slide-coca-3{
+.slide-coca-3 {
   background-image: url(/src/assets/images/torre-coca.jpg?as=webp);
   background-size: cover;
 }
 
-.slide-nava-1{
+.slide-nava-1 {
   background-image: url(/src/assets/images/estacion-nava.jpg?as=webp);
   background-size: cover;
   background-position: center;
 }
 
-.slide-nava-2{
+.slide-nava-2 {
   background-image: url(/src/assets/images/cano-nava.jpg?as=webp);
   background-size: cover;
   background-position: center;
 }
 
-.slide-nava-3{
+.slide-nava-3 {
   background-image: url(/src/assets/images/ermita-nava.jpg?as=webp);
   background-size: cover;
   background-position: center;
 }
 
-.slide-santiuste-1{
+.slide-santiuste-1 {
   background-image: url(/src/assets/images/iglesia-santiuste.jpg?as=webp);
   background-size: cover;
   background-position: center;
 }
 
-.slide-santiuste-2{
+.slide-santiuste-2 {
   background-image: url(/src/assets/images/avelino-vegas.jpg?as=webp);
   background-size: cover;
   background-position: center;
